@@ -41,7 +41,9 @@ return income;
 }
 
 displayPrices();
+console.log("");
 displayTotals();
+console.log("");
 const income = calculateIncome();
 console.log(`Income: $${income}`);
 
@@ -49,4 +51,5 @@ let staffExpenses = Number(input("Staff Expenses:"));
 let otherExpenses = Number(input("Other Expenses:"));
 
 const netIncome = income - staffExpenses - otherExpenses;
+console.log("")
 console.log(`Net income: $${netIncome}`);
